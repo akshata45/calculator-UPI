@@ -1,4 +1,4 @@
-import Calculator from "./components/calculator";
+import Calculator from "./components/Calculator";
 import { Routes, Route } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
 
