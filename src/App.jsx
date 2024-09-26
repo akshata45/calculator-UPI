@@ -4,12 +4,10 @@ import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Calculator />} />
-        <Route path="aboutus" element={<AboutUs />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Calculator />} />
+      <Route path="aboutus" element={<AboutUs />} />
+    </Routes>
   );
 }
 
